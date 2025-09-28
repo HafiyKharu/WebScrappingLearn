@@ -47,3 +47,5 @@ packages/
 # Common lock/build files you may want to untrack
 project.assets.json
 project.nuget.cache
+
+**/ProductsCSV/
