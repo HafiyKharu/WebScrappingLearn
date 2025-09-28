@@ -64,7 +64,7 @@ while (pagesToScrape.Count != 0 && i < limit)
     i++;
 }
 // opening the CSV stream reader 
-using (var writer = new StreamWriter("./ProdutsCSV/products.csv"))
+using (var writer = new StreamWriter("./ProdutCSV/products.csv"))
 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
 {
     // populating the CSV file 
